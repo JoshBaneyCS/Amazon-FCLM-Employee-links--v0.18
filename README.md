@@ -1,69 +1,82 @@
-FCLM Employee Links Script
-Overview
+# FCLM Employee Links Script
 
-The FCLM Employee Links script enhances the employee view page on the FCLM portal. It provides additional functionality such as quick links, live activity status, and copy buttons for employee information. The script is designed to streamline navigation and access to critical data while improving the overall user experience.
-Features
+## 📋 Overview
+The **FCLM Employee Links** script enhances the employee view page on the FCLM portal. It adds quick links, live activity status, and easy-to-use copy buttons for employee information. This script streamlines navigation and improves the overall user experience.
 
-    Quick Links:
-        Adapt Dashboard
-        FANS Direct Message
-        Engage Team Page
-        Picking Console
-        Amazon Time
-        FC Learning Transcript
-        Umbrella Permissions
-        LDAP Permissions
-    Dynamic Tab Title and Favicon:
-        Matches the employee’s login and badge photo for easier tab management.
-    Live Activity Status:
-        Displays the last pick location and current activity status of pickers.
-    Copy Buttons:
-        Copy First Name, Last Name, and Full Name (in First Last format) with a single click.
+---
 
-Installation
+## ✨ Features
+- **Quick Links**:
+  - [Adapt Dashboard](https://adapt-iad.amazon.com)
+  - [FANS Direct Message](https://fans-iad.amazon.com)
+  - [Engage Team Page](https://na.engage.amazon.dev)
+  - [Picking Console](https://picking-console.na.picking.aft.a2z.com)
+  - [Amazon Time](https://weui.workevents.a2z.com)
+  - [FC Learning Transcript](https://fclearning.amazon.com)
+  - [Umbrella Permissions](https://iad.umbrella.amazon.dev)
+  - [LDAP Permissions](https://permissions.amazon.com)
+- **Dynamic Tab Title and Favicon**:
+  - Matches the employee’s login and badge photo for easier tab management.
+- **Live Activity Status**:
+  - Displays the last pick location and current activity status of pickers.
+- **Copy Buttons**:
+  - Copy **First Name**, **Last Name**, and **Full Name** (in `First Last` format) with a single click.
 
-This script is designed to be used with Tampermonkey, a browser extension for running userscripts.
-Steps:
+---
 
-    Install Tampermonkey on your preferred browser.
-    Download the script from the repository.
-    Open the Tampermonkey dashboard.
-    Click on the "Add a new script" button.
-    Paste the script into the editor and save.
+## 🚀 Installation
+This script is designed for use with [Tampermonkey](https://www.tampermonkey.net/).
 
-Usage
+### Steps:
+1. Install Tampermonkey in your browser.
+2. Clone or download this repository.
+3. Open the Tampermonkey dashboard.
+4. Click **"Add a new script"**.
+5. Paste the script into the editor and save.
 
-    Navigate to an employee's page on the FCLM portal.
-    The script automatically enhances the page with:
-        Links to related tools and dashboards.
-        A dynamically updated tab title and favicon.
-        Copy buttons for extracting names:
-            First Name
-            Last Name
-            Full Name (in First Last format)
-        Buttons are added under the employee’s subheader for easy access.
-    Use the links and buttons as needed to streamline your workflow.
+---
 
-Script Structure
+## 🛠️ Usage
+1. Open an employee's page on the FCLM portal.
+2. The script will automatically:
+   - Add links to related tools and dashboards.
+   - Update the tab title and favicon dynamically.
+   - Include copy buttons under the employee’s subheader:
+     - **First Name**
+     - **Last Name**
+     - **Full Name** (`First Last` format)
+3. Use the links and buttons to streamline your workflow.
 
-The script is divided into several functional sections:
+---
 
-    Metadata: Defines the script name, version, and permissions.
-    Dynamic Enhancements:
-        Tab title and favicon changes.
-        Live activity status updates with API integration.
-    Copy Buttons:
-        Buttons for First Name, Last Name, and Full Name copying functionality.
-    Helper Functions:
-        Utilities for rate limiting and DOM manipulation.
+## 🧩 Script Structure
+The script is organized as follows:
+1. **Metadata**:
+   - Script name, version, permissions, and match URL.
+2. **Dynamic Enhancements**:
+   - Updates tab title and favicon.
+   - Fetches and displays live activity data.
+3. **Copy Buttons**:
+   - Adds buttons for copying employee names.
+4. **Helper Functions**:
+   - Utility functions for DOM manipulation and rate-limiting API calls.
 
-Contribution
+---
 
-Contributions are welcome! Feel free to fork the repository and create pull requests for improvements or bug fixes.
-Development Notes
+## 🤝 Contribution
+Contributions are welcome! To contribute:
+1. Fork the repository.
+2. Create a new branch with your feature or bug fix.
+3. Submit a pull request for review.
 
-    Ensure compatibility with both Chrome and Firefox.
-    Maintain clean and readable code for easy updates.
-    Test thoroughly before submitting changes.
+### Development Guidelines:
+- Ensure compatibility with major browsers (e.g., Chrome, Firefox).
+- Write clean, maintainable code.
+- Test thoroughly before creating a pull request.
 
-FOR USE BY AMAZON INTERNAL ONLY. 
+---
+
+## 📜 License
+
+FOR USE INTERNALLY WITH AMAZON FULFILLMENT ONLY! 
+--
