@@ -66,6 +66,4 @@ Development Notes
     Maintain clean and readable code for easy updates.
     Test thoroughly before submitting changes.
 
-License
-
-This project is licensed under the MIT License.
+FOR USE BY AMAZON INTERNAL ONLY. 
